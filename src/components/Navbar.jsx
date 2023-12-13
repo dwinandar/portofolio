@@ -42,11 +42,14 @@ const Navbar = () => {
               {/* Navbar menu content here */}
 
               {NavLinks.map((link) => (
-                <NavLink to={link.href} key={link.link}>
-                  <li className='hover:border-b-2 border-b-pink-700/70'>
+                <li
+                  className='hover:border-b-2 border-b-pink-700/70'
+                  key={link.link}
+                >
+                  <NavLink to={link.href}>
                     <p>{link.link}</p>
-                  </li>
-                </NavLink>
+                  </NavLink>
+                </li>
               ))}
               <ThemeController />
             </ul>

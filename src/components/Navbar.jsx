@@ -68,11 +68,14 @@ const Navbar = () => {
             <ThemeController />
           </li>
           {NavLinks.map((link) => (
-            <NavLink to={link.href} key={link.link} onClick={closeSidebar}>
-              <li className='hover:border-b-2 border-b-pink-700/70'>
+            <li
+              className='hover:border-b-2 border-b-pink-700/70'
+              key={link.link}
+            >
+              <NavLink to={link.href} onClick={closeSidebar}>
                 <p>{link.link}</p>
-              </li>
-            </NavLink>
+              </NavLink>
+            </li>
           ))}
         </ul>
       </div>

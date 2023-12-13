@@ -105,16 +105,18 @@ const Contact = () => {
           <label htmlFor='name'>Name:</label>
           <input
             type='text'
-            placeholder='Input your email here'
+            id='name'
+            placeholder='Input your name here'
             className='w-full input input-bordered'
             autoComplete='false'
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
           />
-          <label htmlFor='emailFrom'>Email:</label>
+          <label htmlFor='email'>Email:</label>
           <input
             type='email'
+            id='email'
             placeholder='Input your email here'
             className='w-full input input-bordered'
             autoComplete='false'
@@ -124,6 +126,7 @@ const Contact = () => {
           />
           <label htmlFor='message'>Message:</label>
           <textarea
+            id='message'
             className='resize-none textarea textarea-bordered'
             placeholder='Input your message here'
             value={message}

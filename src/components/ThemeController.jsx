@@ -1,8 +1,13 @@
 const ThemeController = () => {
   return (
-    <label className='ml-4 swap swap-rotate'>
+    <label className='ml-4 swap swap-rotate' htmlFor='theme-controller'>
       {/* this hidden checkbox controls the state */}
-      <input type='checkbox' className='theme-controller' value='light' />
+      <input
+        type='checkbox'
+        className='theme-controller'
+        value='light'
+        id='theme-controller'
+      />
 
       {/* sun icon */}
       <svg

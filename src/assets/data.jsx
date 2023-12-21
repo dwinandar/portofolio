@@ -42,6 +42,8 @@ export const ProjectsContent = [
     tech: ["React", "TypeScript", "Tailwind", "ShadCn"],
     img: ssTNQ,
     desc: "An easy-to-use Al-Qur'an App with EQuran API, featuring an audio player, light and dark modes, and handy bookmarks.",
+    link: "https://the-noble-quran.vercel.app/",
+    linktitle: "The Noble Qur'an",
   },
   {
     id: 2,
@@ -49,6 +51,8 @@ export const ProjectsContent = [
     tech: ["React", "JavaScript", "Tailwind", "DaisyUI"],
     img: ssReVMinder,
     desc: "A comprehensive online platform offering maintenance support for your vehicle, complete with note-taking capabilities and helpful reminders.",
+    link: "#",
+    linktitle: "-",
   },
   {
     id: 3,
@@ -56,6 +60,8 @@ export const ProjectsContent = [
     tech: ["React", "Tailwind"],
     img: ssGithubUS,
     desc: "Tinkering with a straightforward Github user search app. My playground to grasp data fetching from the Github API.",
+    link: "https://gihub-api-react.vercel.app/",
+    linktitle: "Github User Search App",
   },
 ];
 

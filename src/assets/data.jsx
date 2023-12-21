@@ -11,6 +11,7 @@ import { BiLogoTypescript } from "react-icons/bi";
 import ssTNQ from "./ss-the-noble-quran.png";
 import ssReVMinder from "./ss-revminder.png";
 import ssGithubUS from "./ss-github-user-search.png";
+import ssFND from "./ssFND.png";
 
 export const NavLinks = [
   {
@@ -62,6 +63,15 @@ export const ProjectsContent = [
     desc: "Tinkering with a straightforward Github user search app. My playground to grasp data fetching from the Github API.",
     link: "https://gihub-api-react.vercel.app/",
     linktitle: "Github User Search App",
+  },
+  {
+    id: 4,
+    title: "FixNDrive",
+    tech: ["HTML", "CSS", "JavaScript"],
+    img: ssFND,
+    desc: "An exclusive web platform specifically designed to tackle the macro challenges posed by Infinite Learning Indonesia, with a complete focus on its frontend development.",
+    link: "https://fix-n-drive.vercel.app/",
+    linktitle: "FixNDrive",
   },
 ];
 

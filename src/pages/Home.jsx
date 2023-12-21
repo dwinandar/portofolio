@@ -28,7 +28,7 @@ const Home = () => {
       <a
         href={Resume}
         download
-        className='flex items-center gap-3 mx-auto mt-5 text-center rounded-full max-w-fit md:mx-auto glassmorph md:p-5 p-7'
+        className='flex items-center gap-3 mx-auto mt-5 mb-5 text-center rounded-full max-w-fit md:mx-auto glassmorph md:p-5 p-7'
       >
         <FaFileDownload /> Download My CV
       </a>
